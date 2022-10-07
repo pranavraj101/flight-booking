@@ -65,6 +65,7 @@ $black			: #222;
   font-weight: 300;
 }
 
+
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
   color: #777777;
@@ -2618,6 +2619,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 0.3s ease 0s;
 }
 
+
 .single-destination .overlay-bg {
   background: rgba(4, 9, 30, 0.4);
   -webkit-transition: all 0.3s ease 0s;
@@ -2663,7 +2665,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 .single-destination .desc h4 {
   color: #fff;
 }
-
+.single-destination:hover{
+  transform: scale(1.25) rotate(360deg);
+  
+}
 .single-destination .desc p {
   color: #fff;
   font-size: 14px;
@@ -2673,6 +2678,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .single-destination:hover .price-btn {
   opacity: 1;
+  animation-duration: 5s;
+  transform: skew(15deg);
 }
 
 .single-destination:hover .overlay-bg {
@@ -2759,7 +2766,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-other-issue:hover .thumb img {
-  transform: scale(1.08) rotate(-3deg);
+  transform: scale(2) rotate(360deg);
 }
 
 /*-------- end other-issue Area ------------*/
